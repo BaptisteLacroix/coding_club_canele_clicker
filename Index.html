@@ -4,18 +4,19 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Canelés</title>
+    <title>Cannelés</title>
     <meta name="author" content="Baptiste Lacroix">
     <link href='css/style.css' rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <script src="script/script.js"></script>
 </head>
 
-<body id="monpara">
+<body onload="init();">
     <header>
         <div id="titre-div">
             <h1>
-                <span class="Couleur-Caneles">Canelés Cliker </span>
+                <span class="Couleur-Caneles">Cannelés Cliker </span>
             </h1>
         </div>
     </header>
@@ -24,9 +25,9 @@
             <div>
                 <a class="image-centre"><img class="image-centre" src="img/Caneles.jpg" alt="image de Canelés"></a>
             </div>
-            <p class="paragraphe-contenu">Vous avez <span class="chiffre">0 </span>Canelés</p>
-            <button type="button"> Cuisiner</button>
-            <button id="four" type="button" onclick="addFour();" disabled> Acheter un four 25 Canelés</button>
+            <p class="paragraphe-contenu">Vous avez <span id="chiffre">0</span> cannelés</p>
+            <button type="button" onclick="cook();"> Cuisiner</button>
+            <button id="four" type="button" onclick="addFour();"> Acheter un four 25 cannelés</button>
         </div>
     </div>
 </body>
