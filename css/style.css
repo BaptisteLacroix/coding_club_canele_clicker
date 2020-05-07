@@ -1,0 +1,42 @@
+html,
+body {
+    height: 100%;
+    /*width: 100%;*/
+    /*min-height: 100%;*/
+    /*min-width: 100%;*/
+    float: left;
+}
+
+.Couleur-Caneles {
+    color: #5f021f;
+    font-family: 'Pacifico';
+}
+
+.chiffre{
+    color: #a47;
+    font-family;'Neucha';
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a.image-centre {
+    text-align: center;
+}
+
+/* Paragraphes */
+
+
+/* div */
+
+
+/* Pied de Page */
+
+
+/* CSS FORMULAIRE */
+
+
+
+/* The container */
